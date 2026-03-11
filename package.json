@@ -1,0 +1,30 @@
+{
+  "name": "@atenotech/react",
+  "version": "0.1.0",
+  "description": "Official React UI components for Ateno",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.jsx --format esm,cjs --minify --clean",
+    "dev": "tsup src/index.jsx --format esm,cjs --watch --dts",
+    "lint": "tsc"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
