@@ -1,6 +1,6 @@
 {
   "name": "@atenotech/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official React UI components for Ateno",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
